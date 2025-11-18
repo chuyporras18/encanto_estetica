@@ -79,6 +79,9 @@ namespace Encanto_Estetica
                 }
                 else
                 {
+                    txt_num_empleado.Clear();
+                    txt_contrasena.Clear();
+
                     pantalla_inicio pantalla_inicio = new pantalla_inicio(this, num_empleado);
                     pantalla_inicio.Show();
 
