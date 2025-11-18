@@ -1,0 +1,1 @@
+Get-ChildItem -Path C:\Users\chuyp\Downloads\encanto_estetica -Recurse | Unblock-File
